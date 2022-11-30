@@ -3,13 +3,12 @@ site_name: 韩志伟的博客
 
 
 nav:
-- Home: index.md
-- Git测试:
+- Home: 
+- 文章:
   - Git1: Git_study.md
-  - Git2: Git_study.md
-  - Git3: Git_study.md
-- Git: 
-  - Git学习笔记: Git_study.md
+- C语言: 
+  
+- 打字网站: 
 
 
 theme: mkdocs 
