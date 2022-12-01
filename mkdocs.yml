@@ -5,4 +5,12 @@ site_author: 韩志伟 #作者名字
 
 nav: 
   - 主页: index.md
-  - 文章: Git学习笔记.md 
+  - 文章: 
+        - Git学习笔记: Git学习笔记.md
+        - gitbash报错: gitbash报错.md
+        - gitbash中无法粘贴: gitbash中无法粘贴.md
+        - npm切换淘宝镜像: npm切换淘宝镜像.md
+        - 本地(Centos7)服务器搭建: 本地(Centos7)服务器搭建.md
+        - 关于Vscode编译md提示Code language not supported or defined..: 关于Vscode编译md提示Code language not supported or defined..md
+        - 华为小天鹅音响使用说明: 华为小天鹅音响使用说明.md
+        - 青龙面板搭建: 青龙面板搭建.md
