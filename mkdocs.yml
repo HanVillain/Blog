@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: 韩志伟的博客 #网站名字
+site_url: https://hanvillain.github.io/Blog/ #网站网址
+site_author: 韩志伟 #作者名字
+
+
+nav: 
+  - 主页: index.md
+  - 文章: Git学习笔记.md 

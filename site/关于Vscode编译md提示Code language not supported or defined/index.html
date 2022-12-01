@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="韩志伟">
-        
-        <link rel="shortcut icon" href="/Blog/img/favicon.ico">
-        <title>韩志伟的博客</title>
-        <link href="/Blog/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/Blog/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/Blog/css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://hanvillain.github.io/Blog/%E5%85%B3%E4%BA%8EVscode%E7%BC%96%E8%AF%91md%E6%8F%90%E7%A4%BACode%20language%20not%20supported%20or%20defined./">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>关于Vscode编译md提示Code language not supported or defined. - 韩志伟的博客</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="/Blog/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/Blog/js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -23,7 +23,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="/Blog/.">韩志伟的博客</a>
+                <a class="navbar-brand" href="..">韩志伟的博客</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,10 +34,10 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="/Blog/." class="nav-link">主页</a>
+                                <a href=".." class="nav-link">主页</a>
                             </li>
                             <li class="navitem">
-                                <a href="/Blog/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="nav-link">文章</a>
+                                <a href="../Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="nav-link">文章</a>
                             </li>
                         </ul>
 
@@ -54,15 +54,34 @@
 
         <div class="container">
             <div class="row">
-
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
     </div>
 
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
 
+<h3 id="_1">前言</h3>
+<p>有段时间没有使用vscode编译markdown文件，今天在写文章时发现提示“Code language not supported or defined.”</p>
+<p><img alt="" src="https://img-blog.csdnimg.cn/2b0ca481c3d0426c9bd3e9bc2aa2c674.png" /></p>
+<p>百度之后发现可能是需要配置Code run这个插件的一些地方，但是经过试验过后并没有成功，然后自己在想：为什么不直接再一次的重新配置一遍markdown编译环境，因为markdown环境的配置十分简单，所以与其寻找解决办法，不如直接重新配置新的markdown环境</p>
+<p>然后百度了一篇最近的vscode配置markdown新环境的文章，发现需要将侧边预览打开</p>
+<h4 id="_2">正文</h4>
+<h6 id="_3">侧边预览打开方式</h6>
+<p>在你的源文件下，鼠标右键呼出预览菜单（或者使用快捷键Ctrl+K V）
+<img alt="" src="https://raw.githubusercontent.com/hanread/HanImageBed/main/img/202211091816629.png" />
+快捷键解释：Ctrl+K然后松开按住V键
+注意：右下角语言模式设置为MarkDown否则无法呼出预览（一般情况下code会自动识别出）</p>
+<p>这样就可以解决了</p></div>
             </div>
         </div>
 
@@ -71,11 +90,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/Blog/",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="/Blog/js/base.js" defer></script>
-        <script src="/Blog/search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
