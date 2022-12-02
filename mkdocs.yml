@@ -1,16 +1,79 @@
-site_name: 韩志伟的博客 #网站名字
+site_name: 韩志伟的个人网站 #网站名字
 site_url: https://hanvillain.github.io/Blog/ #网站网址
-site_author: 韩志伟 #作者名字
+site_author: hanread #作者名字
+
+
+theme:
+  name: material #网站的主题
+  logo: logo.png
+  language: zh # 一些提示性的文字会变成中文
+  palette: 
+    - scheme: default # 日间模式
+      primary: deep purple #yellow #网站顶部栏目的颜色
+      accent: teal # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/lightbulb-outline # 图标
+        name: 切换至模式二 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/lightbulb
+        name: 切换至模式一
+
+  features:
+    - navigation.tabs # 使用Tab来进行分类
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
+    - navigation.expand # 打开Tab时左侧目录全部展开
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - search.share #搜索分享按钮
+  
+  icon:
+    repo: fontawesome/brands/github
+
+edit_uri: edit/main/docs # 编辑按钮跳转的链接
+## [top-right corner]
+repo_url: https://github.com/HanVillain/Blog # 右上角点击跳转的链接
+repo_name: github.com/HanVillain/Blog # 右上角的名字
+## [bottom-left corner]
+copyright: Copyright &copy; 2022 韩志伟 # 左下角的版权声明
+## [bottom-right corner]
+
+extra:
+  #generator: false #删除页脚显示 "Made with Material for MkDocs"
+  social: # icons
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/478792585/
+      name: Bilibili | 是小韩同学啦 # 鼠标悬浮提示
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/hanread
+      name: GitHub | hanread
+
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<3213596129@qq.com> #联系方式
+
 
 
 nav: 
   - 主页: index.md
   - 文章: 
-        - Git学习笔记: Git学习笔记.md
-        - gitbash报错: gitbash报错.md
-        - gitbash中无法粘贴: gitbash中无法粘贴.md
-        - npm切换淘宝镜像: npm切换淘宝镜像.md
-        - 本地(Centos7)服务器搭建: 本地(Centos7)服务器搭建.md
-        - 关于Vscode编译md提示Code language not supported or defined..: 关于Vscode编译md提示Code language not supported or defined..md
-        - 华为小天鹅音响使用说明: 华为小天鹅音响使用说明.md
-        - 青龙面板搭建: 青龙面板搭建.md
+        - Git学习笔记: 文章/Git学习笔记.md
+        - gitbash报错: 文章/gitbash报错.md
+        - gitbash中无法粘贴: 文章/gitbash中无法粘贴.md
+        - npm切换淘宝镜像: 文章/npm切换淘宝镜像.md
+        - 本地(Centos7)服务器搭建: 文章/本地(Centos7)服务器搭建.md
+        - 关于Vscode编译md提示Code language not supported or defined..: 文章/关于Vscode编译md提示Code language not supported or defined..md
+        - 华为小天鹅音响使用说明: 文章/华为小天鹅音响使用说明.md
+        - 青龙面板搭建: 文章/青龙面板搭建.md
+  - C语言: 
+        - 一维数组: C语言\一维数组.md
+
+  - 日志: 
+        - word添加目录: 日志\word添加目录.md
+
+  - 简历: 简历\韩志伟简历.md
+
+        
